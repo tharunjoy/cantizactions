@@ -1,4 +1,4 @@
-const functions = require('firebase-functions');
+//const functions = require('firebase-functions');
 const {dialogflow} = require('actions-on-google');
 var MqttHandler = require('./MQTTHandler');
 
@@ -82,4 +82,4 @@ app.intent(BLIND_CONTROL_INTENT, (conv) => {
 });
 
 
-exports.dialogflowFirebaseFulfillment = functions.https.onRequest(app);
+//exports.dialogflowFirebaseFulfillment = functions.https.onRequest(app);
